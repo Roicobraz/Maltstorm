@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <header>
+        <div id="switcher">
+            <div id="btn-toggle">
+                <label class="switch">
+                    <label>Thème sombre: </label>
+                    <input id="toggleswitch" type="checkbox">
+                    <span class="slider round"></span>
+                </label> 
+            </div>
+        </div>
+    </header>
     <div class="carousel">
         <div class="carousel-items">
             <div class="carousel-item active"><img src="https://placehold.co/322x403?text=De+la+bière"></div>
@@ -16,7 +27,12 @@
         <button class="btn_left"><</button>
         <button class="btn_right">></button>
     </div>
+    <footer>
+
+    </footer>
     <script src="./js/carousel.js"></script>
+    <script id="darkmod-js" src="./js/darkmod.js"></script>
+    <script src="./js/switcher.js"></script>
 </body>
 
 </html>
