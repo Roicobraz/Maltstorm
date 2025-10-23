@@ -35,20 +35,23 @@
     display: flex;
     gap: 0.5rem;
     min-width: var(--vj-carousel-width);
-    /* position: relative; */
-    /* min-height: var(--vj-carousel-height); */
+    max-width: 322px;
     height: 100%;
 }
 
 .carousel .carousel-items .carousel-item
 {
-    /* position: absolute; */
     width: 100%;
 }
 
 .carousel .carousel-items .carousel-item:not(.active)
 {
     display: none;
+}
+
+.carousel_left_arrive, .carousel_left_leave, .carousel_right_arrive, .carousel_right_leave
+{
+    display: flex !important;
 }
 
 .carousel_left_leave
