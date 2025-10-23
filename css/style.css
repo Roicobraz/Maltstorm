@@ -2,4 +2,6 @@
 /* CSS Document */
 
 @import url("variable.css");
-
+@import url("carousel.css");
+@import url("darkmod.css");
+@import url("switcher.css");

@@ -1,0 +1,7 @@
+/* Dark mode */
+html[data-bs-theme="dark"] {
+    body
+    {
+        background: #000000;
+    }
+}
