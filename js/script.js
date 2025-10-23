@@ -1,0 +1,1 @@
+const BEERS = ["stout", "IPA", "Blonde"]
