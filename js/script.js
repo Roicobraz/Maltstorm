@@ -1,1 +1,1 @@
-const BEERS = ["stout", "IPA", "Blonde"]
+const BEERS = ["stout", "IPA", "Blonde"];
