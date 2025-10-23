@@ -1,10 +1,20 @@
 header
 {
+    width: 100vw;
+    position: fixed;
+}
+
+header>div
+{
+    width: max-content;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 4rem;
     border: 1px solid var(--marron);
+    border-radius: 25px;
+    margin: auto;
+    padding-right: 30px;
 }
 
 header ul
