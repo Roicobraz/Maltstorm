@@ -1,0 +1,1 @@
+const BEERS = ["Pale Ale", "Triple", "Saison"];
