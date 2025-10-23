@@ -1,0 +1,18 @@
+#info {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 3rem 10rem 0;
+}
+
+#first-beer {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+#second-beer {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}

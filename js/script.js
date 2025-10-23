@@ -1,1 +1,1 @@
-const BEERS = ["Pale Ale", "Triple", "Saison"];
+const BEERS = ["stout", "IPA", "Blonde"];
