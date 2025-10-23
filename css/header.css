@@ -1,0 +1,25 @@
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    border: 1px solid var(--marron);
+}
+
+header ul
+{
+    display: flex;
+    gap: 4rem;
+}
+
+header ul li
+{
+    list-style: none;
+}
+
+#switcher
+{
+    margin-left: 122px;
+    align-content: center;
+}
