@@ -4,12 +4,12 @@ html[data-bs-theme="dark"] {
 
     body, header ul li a:hover, header ul li a:visited, header ul li a
     {
-        color: var(--creme);
+        color: var(--creme)!important;
     }
 
     header>div
     {
-        border: 1px solid var(--creme);
+        border: 1px solid var(--creme)!important;
     }
 
     input:checked + .slider 
