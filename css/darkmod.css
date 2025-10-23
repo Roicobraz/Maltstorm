@@ -1,7 +1,19 @@
 /* Dark mode */
 html[data-bs-theme="dark"] {
-    body
+    background: var(--marron);
+
+    body, header ul li a:hover, header ul li a:visited, header ul li a
     {
-        background: #000000;
+        color: var(--creme);
+    }
+
+    header>div
+    {
+        border: 1px solid var(--creme);
+    }
+
+    input:checked + .slider 
+    {
+        background-color: var(--creme) !important;
     }
 }

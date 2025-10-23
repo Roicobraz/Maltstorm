@@ -1,0 +1,14 @@
+html
+{
+    background-color: var(--creme);
+}
+
+body
+{
+    margin: 0;
+}
+
+main
+{
+    padding-top: 5rem;
+}
